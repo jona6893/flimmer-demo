@@ -34,7 +34,7 @@ export default function VideoScreen() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowCard(true);
-    }, 0);
+    }, 1000);
     return () => clearTimeout(timer);
   }, []);
 
